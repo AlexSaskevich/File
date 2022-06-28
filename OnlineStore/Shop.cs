@@ -8,5 +8,9 @@ namespace OnlineStore
 {
     internal class Shop
     {
+        public Shop()
+        {
+
+        }
     }
 }
