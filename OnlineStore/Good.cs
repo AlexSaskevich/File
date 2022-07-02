@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OnlineStore
+﻿namespace OnlineStore
 {
     internal class Good
     {
@@ -9,11 +7,6 @@ namespace OnlineStore
         public Good(string name)
         {
             Name = name;
-        }
-
-        public void Show()
-        {
-            Console.WriteLine(Name);
         }
     }
 }
