@@ -8,13 +8,13 @@ namespace OnlineStore
         private readonly Dictionary<Good, int> _goods;
         private readonly IReadOnlyDictionary<Good, int> _warehouse;
 
-        public event Action<Good, int> GoodChanged;
-
         public Cart(IReadOnlyDictionary<Good, int> warehouse)
         {
             _goods = new Dictionary<Good, int>();
             _warehouse = warehouse;
         }
+
+        public event Action<Good, int> GoodChanged;
 
         public void Add(Good good, int count)
         {
@@ -49,8 +49,8 @@ namespace OnlineStore
 
         public string Order()
         {
-            string PayLink = "...PayLink...";
-            return PayLink;
+            string payLink = "...PayLink...";
+            return payLink;
         }
     }
 }

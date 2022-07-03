@@ -22,12 +22,11 @@ namespace OnlineStore
             cart.Add(iPhone12, 4);
             cart.Add(iPhone11, 3);
 
-
             cart.ShowGoods();
 
             Console.WriteLine(cart.Order());
 
-            cart.Add(iPhone12, 9); //Ошибка, после заказа со склада убираются заказанные товары
+            cart.Add(iPhone12, 9);
         }
     }
 }

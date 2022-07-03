@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OnlineStore
+﻿namespace OnlineStore
 {
     internal class Shop
     {
