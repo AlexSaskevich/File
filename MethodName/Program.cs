@@ -6,14 +6,14 @@
         {
         }
 
-        private static int Clamp(int calue, int min, int max)
+        private static int Clamp(int value, int min, int max)
         {
-            if (calue < min)
+            if (value < min)
                 return min;
-            else if (calue > max)
+            else if (value > max)
                 return max;
             else
-                return calue;
+                return value;
         }
     }
 }
